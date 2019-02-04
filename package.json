@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "ESLint base configuration for Node.js development",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brentonhouse/geek-eslint-config.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
