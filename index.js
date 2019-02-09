@@ -315,7 +315,7 @@ module.exports = {
 		],
 		"quote-props": [
 			"error",
-			"as-needed"
+			"consistent-as-needed"
 		],
 		"require-jsdoc": [
 			"off",
