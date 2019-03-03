@@ -1,8 +1,8 @@
 {
   "name": "@geek/eslint-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ESLint base configuration for Node.js development",
-  "main": "index.js",
+  "main": ".eslintrc.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/brentonhouse/geek-eslint-config.git"
@@ -19,5 +19,15 @@
     "email": "brenton.house@gmail.com",
     "url": "https://brenton.house"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint-plugin-import": ">=2.16.0",
+    "eslint-plugin-jsdoc": ">=4.1.1",
+    "eslint-plugin-promise": ">=4.0.1"
+  },
+  "dependencies": {
+    "eslint-plugin-import": ">=2.16.0",
+    "eslint-plugin-jsdoc": ">=4.1.1",
+    "eslint-plugin-promise": ">=4.0.1"
+  }
 }
