@@ -134,7 +134,7 @@ module.exports = {
         "jsdoc/check-param-names": "warn",
         "jsdoc/check-tag-names": "warn",
         "jsdoc/check-types": "warn",
-        "jsdoc/newline-after-description": "warn",
+        "jsdoc/newline-after-description": "always",
         "jsdoc/no-undefined-types": "warn",
         "jsdoc/require-description": "warn",
         "jsdoc/require-description-complete-sentence": "warn",
