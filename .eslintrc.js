@@ -138,7 +138,7 @@ module.exports = {
         "jsdoc/no-undefined-types": "warn",
         "jsdoc/require-description": "warn",
         "jsdoc/require-description-complete-sentence": "warn",
-        "jsdoc/require-example": "warn",
+        "jsdoc/require-example": "off",
         "jsdoc/require-hyphen-before-param-description": "warn",
         "jsdoc/require-param": "warn",
         "jsdoc/require-param-description": "warn",
