@@ -1,33 +1,30 @@
 {
-  "name": "@geek/eslint-config",
-  "version": "0.0.6",
-  "description": "ESLint base configuration for Node.js development",
-  "main": ".eslintrc.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/brentonhouse/geek-eslint-config.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "eslint",
-    "nodejs"
-  ],
-  "author": {
-    "name": "Brenton House",
-    "email": "brenton.house@gmail.com",
-    "url": "https://brenton.house"
-  },
-  "license": "MIT",
-  "peerDependencies": {
-    "eslint-plugin-import": ">=2.16.0",
-    "eslint-plugin-jsdoc": ">=4.1.1",
-    "eslint-plugin-promise": ">=4.0.1"
-  },
-  "dependencies": {
-    "eslint-plugin-import": ">=2.16.0",
-    "eslint-plugin-jsdoc": ">=4.1.1",
-    "eslint-plugin-promise": ">=4.0.1"
-  }
+	"name": "@geek/eslint-config",
+	"version": "0.0.7",
+	"description": "ESLint base configuration for Node.js development",
+	"main": ".eslintrc.js",
+	"repository": "github:brentonhouse/geek-eslint-config",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"eslint",
+		"nodejs"
+	],
+	"author": {
+		"name": "Brenton House",
+		"email": "brenton.house@gmail.com",
+		"url": "https://brenton.house"
+	},
+	"license": "MIT",
+	"peerDependencies": {
+		"eslint-plugin-import": ">=2.16.0",
+		"eslint-plugin-jsdoc": ">=4.8.2",
+		"eslint-plugin-promise": ">=4.1.1"
+	},
+	"dependencies": {
+		"eslint-plugin-import": ">=2.16.0",
+		"eslint-plugin-jsdoc": ">=4.8.2",
+		"eslint-plugin-promise": ">=4.1.1"
+	}
 }
