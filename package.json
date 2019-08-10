@@ -1,6 +1,6 @@
 {
   "name": "@geek/eslint-config",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "ESLint base configuration for Node.js development",
   "main": ".eslintrc.js",
   "repository": {
@@ -12,7 +12,8 @@
   },
   "keywords": [
     "eslint",
-    "nodejs"
+    "nodejs",
+    "brenton-house"
   ],
   "author": {
     "name": "Brenton House",
@@ -21,13 +22,13 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "eslint-plugin-import": ">=2.16.0",
-    "eslint-plugin-jsdoc": ">=4.1.1",
-    "eslint-plugin-promise": ">=4.0.1"
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsdoc": "^15.8.0",
+    "eslint-plugin-promise": "^4.2.1"
   },
   "dependencies": {
-    "eslint-plugin-import": ">=2.16.0",
-    "eslint-plugin-jsdoc": ">=4.1.1",
-    "eslint-plugin-promise": ">=4.0.1"
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsdoc": "^15.8.0",
+    "eslint-plugin-promise": "^4.2.1"
   }
 }

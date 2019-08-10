@@ -1,6 +1,6 @@
 module.exports = {
 	"parserOptions": {
-		"ecmaVersion": 2017,
+		"ecmaVersion": 2018,
 		"sourceType": "module",
 		"ecmaFeatures": {
 			"modules": true
@@ -267,6 +267,7 @@ module.exports = {
 		"no-useless-computed-key": "error",
 		"no-useless-concat": "error",
 		"no-useless-constructor": "error",
+		"no-var": "error",
 		"no-void": "error",
 		"no-whitespace-before-property": "error",
 		"no-with": "error",
