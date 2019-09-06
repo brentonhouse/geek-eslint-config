@@ -21,14 +21,9 @@
     "url": "https://brenton.house"
   },
   "license": "MIT",
-  "peerDependencies": {
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsdoc": "^15.8.0",
-    "eslint-plugin-promise": "^4.2.1"
-  },
   "dependencies": {
     "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsdoc": "^15.8.0",
+    "eslint-plugin-jsdoc": "^15.9.1",
     "eslint-plugin-promise": "^4.2.1"
   }
 }
