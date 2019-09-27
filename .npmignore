@@ -1,3 +1,7 @@
+
+.dependabot
+.github
+
 # OS Directories and Files
 .DS_Store
 Thumbs.db

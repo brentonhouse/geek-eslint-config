@@ -8,7 +8,9 @@
     "url": "git+https://github.com/brentonhouse/geek-eslint-config.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "list-files": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
+    "test": "npm install --ignore-scripts && npm run list-files",
+    "prepublishOnly": "git pull && bump"
   },
   "keywords": [
     "eslint",
