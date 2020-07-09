@@ -1,6 +1,6 @@
 {
   "name": "@geek/eslint-config",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "ESLint base configuration for Node.js development",
   "main": ".eslintrc.js",
   "repository": {
