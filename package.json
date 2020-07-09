@@ -5,11 +5,11 @@
   "main": ".eslintrc.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brentonhouse/geek-eslint-config.git"
+    "url": "github:brentonhouse/geek-eslint-config.git"
   },
   "scripts": {
-    "list-files": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
-    "test": "npm install --ignore-scripts && npm run list-files",
+    "list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
+    "test": "npm install --ignore-scripts && npm run list",
     "prepublishOnly": "git pull && bump"
   },
   "keywords": [
@@ -24,8 +24,11 @@
   },
   "license": "MIT",
   "dependencies": {
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsdoc": "^15.9.3",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsdoc": "^29.1.2",
     "eslint-plugin-promise": "^4.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0"
   }
 }
