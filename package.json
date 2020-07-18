@@ -29,6 +29,6 @@
     "eslint-plugin-promise": "^4.2.1"
   },
   "devDependencies": {
-    "eslint": "^7.4.0"
+    "eslint": "^7.5.0"
   }
 }
