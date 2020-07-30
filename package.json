@@ -1,6 +1,6 @@
 {
   "name": "@geek/eslint-config",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "ESLint base configuration for Node.js development",
   "main": ".eslintrc.js",
   "repository": {
@@ -23,12 +23,10 @@
     "url": "https://brenton.house"
   },
   "license": "MIT",
-  "dependencies": {
+  "peerDependencies": {
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsdoc": "^30.0.3",
-    "eslint-plugin-promise": "^4.2.1"
-  },
-  "devDependencies": {
+    "eslint-plugin-promise": "^4.2.1",
     "eslint": "^7.5.0"
   }
 }
