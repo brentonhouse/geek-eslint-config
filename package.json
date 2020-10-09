@@ -1,6 +1,6 @@
 {
   "name": "@geek/eslint-config",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "ESLint base configuration for Node.js development",
   "main": ".eslintrc.js",
   "repository": {
@@ -24,9 +24,9 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jsdoc": "^30.0.3",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsdoc": "^30.6.4",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint": "^7.5.0"
+    "eslint": "^7.11.0"
   }
 }
