@@ -164,13 +164,16 @@ module.exports = {
 			5,
 		],
 		'max-nested-callbacks':     'error',
-		'max-statements-per-line':  'error',
+		'max-statements-per-line':  [
+			'error',
+			{ max: 2 },
+		],
 		'new-parens':               'error',
 		'no-alert':                 'error',
 		'no-array-constructor':     'error',
 		'no-buffer-constructor':    'error',
 		'no-case-declarations':     'off',
-		'no-catch-shadow':          'error',
+		'no-catch-shadow':          'off',
 		'no-cond-assign':           'off',
 		'no-confusing-arrow':       'error',
 		'no-console':               'off',
@@ -225,14 +228,7 @@ module.exports = {
 		],
 		'no-undef':             'error',
 		'no-undef-init':        'error',
-		'no-underscore-dangle': [
-			'error',
-			{
-				allow: [
-					'_id',
-				],
-			},
-		],
+		'no-underscore-dangle': 'off',
 		'no-unmodified-loop-condition': 'error',
 		'no-unneeded-ternary':          'error',
 		'no-unused-expressions':        [
@@ -314,7 +310,7 @@ module.exports = {
 			'error',
 		],
 		'promise/avoid-new': [
-			'error',
+			'warn',
 		],
 		'promise/no-new-statics': [
 			'error',
@@ -324,7 +320,7 @@ module.exports = {
 		],
 		'quotes': [
 			'error',
-			'single',
+			'backtick',
 			{
 				avoidEscape:           true,
 				allowTemplateLiterals: true,
