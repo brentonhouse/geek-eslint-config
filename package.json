@@ -26,7 +26,7 @@
   "dependencies": {
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jsdoc": "^31.6.1",
-    "eslint-plugin-jsonc": "^0.8.2",
+    "eslint-plugin-jsonc": "^2.0.0",
     "eslint-plugin-promise": "^4.3.1"
   },
   "peerDependencies": {
