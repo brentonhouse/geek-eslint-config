@@ -1,6 +1,6 @@
 {
   "name": "@geek/eslint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ESLint base configuration for Node.js development",
   "main": ".eslintrc.js",
   "repository": {
@@ -24,15 +24,15 @@
   },
   "license": "MIT",
   "dependencies": {
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jsdoc": "^37.5.1",
-    "eslint-plugin-jsonc": "^2.0.0",
-    "eslint-plugin-promise": "^6.0.0"
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsdoc": "^46.4.0",
+    "eslint-plugin-jsonc": "^2.9.0",
+    "eslint-plugin-promise": "^6.1.1"
   },
   "peerDependencies": {
-    "eslint": "^8.6.0"
+    "eslint": "^8.43.0"
   },
   "devDependencies": {
-    "eslint": "^8.6.0"
+    "eslint": "^8.43.0"
   }
 }
