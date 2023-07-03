@@ -112,6 +112,7 @@ module.exports = {
 			`declaration`,
 			{ allowArrowFunctions: true },
 		],
+		'function-paren-newline': [	`error`, `consistent` ],
 		'generator-star-spacing': `error`,
 		'id-match':               `error`,
 		'indent':                 [
